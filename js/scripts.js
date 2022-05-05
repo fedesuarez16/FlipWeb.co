@@ -51,4 +51,25 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    const emailBtn = document.querySelector("#submitButton1");
+    emailBtn.addEventListener("click", () => {
+
+        console.log("awdawdawd");
+        const templateParams = {
+            email:document.getElementById("email").value,
+            message:document.getElementById("message").value,
+            name:document.getElementById("name").value,
+            number:document.getElementById("phone").value
+        }
+        console.log(templateParams);
+
+        emailjs.send('service_n4jalza', 'template_p53hh7c', templateParams)
+            .then( (res) => {
+                console.log(res)
+            })
+            .catch( (err) => {
+                console.log(`Error ${err}`);
+            })
+    })
+
 });
