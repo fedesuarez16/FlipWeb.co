@@ -59,7 +59,8 @@ window.addEventListener('DOMContentLoaded', event => {
             email:document.getElementById("email").value,
             message:document.getElementById("message").value,
             name:document.getElementById("name").value,
-            number:document.getElementById("phone").value
+            phone:document.getElementById("phone").value
+            
         }
         console.log(templateParams);
 

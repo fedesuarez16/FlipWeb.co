@@ -11759,8 +11759,9 @@ section#contact form#contactForm .form-group input,
 section#contact form#contactForm .form-group textarea {
   padding: 1.25rem;
 }
-section#contact form#contactForm .form-group input.form-control {
+section#contact form#contactForm .form-group input.form-control1 {
   height: auto;
+  width: 50%;
 }
 section#contact form#contactForm .form-group-textarea {
   height: 100%;
@@ -11772,7 +11773,7 @@ section#contact form#contactForm .form-group-textarea textarea {
 section#contact form#contactForm p.help-block {
   margin: 0;
 }
-section#contact form#contactForm .form-control:focus {
+section#contact form#contactForm .form-control1:focus {
   border-color: #ffc800;
   box-shadow: none;
 }
