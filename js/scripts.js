@@ -7,6 +7,9 @@
 // Scripts
 // 
 
+
+
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -67,6 +70,8 @@ window.addEventListener('DOMContentLoaded', event => {
         emailjs.send('service_n4jalza', 'template_p53hh7c', templateParams)
             .then( (res) => {
                 console.log(res)
+                
+
             })
             .catch( (err) => {
                 console.log(`Error ${err}`);
@@ -74,3 +79,5 @@ window.addEventListener('DOMContentLoaded', event => {
     })
 
 });
+
+

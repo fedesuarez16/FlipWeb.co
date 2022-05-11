@@ -665,6 +665,13 @@ progress {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
   }
+
+}
+ 
+
+.services2{
+  background: #e6b400;
+  padding: 100px;
 }
 .row {
   --bs-gutter-x: 1.5rem;
@@ -3615,6 +3622,9 @@ textarea.form-control1-lg {
     right: auto;
     left: 0;
   }
+  .form-control1{
+    padding-right: 40px;
+  }
 
   .dropdown-menu-sm-end {
     --bs-position: end;
@@ -5676,6 +5686,13 @@ height: 80px;
     height: 100%;
     margin: 0;
   }
+  .form-control1{
+    width:70%;
+    align-items: center;
+  }
+  .navbar {
+    width: 100%;
+  }
   .modal-fullscreen-sm-down .modal-content {
     height: 100%;
     border: 0;
@@ -5689,6 +5706,11 @@ height: 80px;
   }
   .modal-fullscreen-sm-down .modal-footer {
     border-radius: 0;
+  }
+}
+@media (max-width: 390px) {
+  .navbar{
+    width: 100%;
   }
 }
 @media (max-width: 767.98px) {
