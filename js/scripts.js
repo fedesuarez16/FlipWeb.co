@@ -1,11 +1,4 @@
-/*!
-* Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
+
 
 
 
@@ -67,14 +60,30 @@ window.addEventListener('DOMContentLoaded', event => {
         }
         console.log(templateParams);
 
+
+
         emailjs.send('service_n4jalza', 'template_p53hh7c', templateParams)
             .then( (res) => {
                 console.log(res)
+                swal({
+                    title: "Tu Mensaje se envio correctamente",
+                    text: "Te responderemos a la brevedad",
+                    icon: "success",
+                    button: "cerrar",
+                  });
+
                 
 
             })
             .catch( (err) => {
                 console.log(`Error ${err}`);
+                swal({
+                    title: "Tu mensaje no se pudo enviar",
+                    text: "intentalo mas tarde o envianos un email a hello@flipwebco.com",
+                    icon: "warning",
+                    button: "cerrar",
+                  });
+
             })
     })
 
