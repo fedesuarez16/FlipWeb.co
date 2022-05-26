@@ -62,7 +62,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 
-        emailjs.send('service_n4jalza', 'template_p53hh7c', templateParams)
+        emailjs.send('service_qne58zn', 'template_2ftnirk', templateParams)
             .then( (res) => {
                 console.log(res)
                 swal({
