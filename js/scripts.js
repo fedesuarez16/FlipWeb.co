@@ -50,7 +50,7 @@ window.addEventListener('DOMContentLoaded', event => {
     const emailBtn = document.querySelector("#submitButton1");
     emailBtn.addEventListener("click", () => {
 
-        console.log("awdawdawd");
+        console.log("awdawdawdg");
         const templateParams = {
             email:document.getElementById("email").value,
             message:document.getElementById("message").value,
