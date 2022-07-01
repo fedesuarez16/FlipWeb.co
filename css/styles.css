@@ -94,6 +94,11 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.quiz-main{
+
+  background-image: url(/assets/img/backgrounflip.jpg);
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -675,8 +680,9 @@ progress {
  
 
 .services2{
-  background: #e6b400;
+  
   padding: 100px;
+  margin-bottom: -100px;
 }
 .row {
   --bs-gutter-x: 1.5rem;
@@ -11459,7 +11465,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/background2.0.jpg");
+  background-image: url("../assets/img/fondofipsvg.svg ");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
